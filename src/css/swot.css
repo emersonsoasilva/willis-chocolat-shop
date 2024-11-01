@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    height: 100vh;
+}
+
+.container {
+    background-color: #672f0a;
+    width: 100%; 
+    height: 100vh;
+}
+
+.container header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: #a97b4c;
+}
+
+.container header nav h1 {
+    padding: 25px;
+    padding-left: 480px;
+    margin-right: 200px;
+    color: whitesmoke;
+}
+
+.container header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%; 
+}
+
+.container header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container header nav ul li {
+    position: relative; 
+    height: 100%; 
+}
+
+.container header nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    padding: 30px 20px 0;
+    height: 100%; 
+}
+
+.active a {
+    background-color: #672f0a;
+}
+
+header nav ul li a:hover {
+    color: #903b0d;
+    border-bottom: 5px solid #944300;
+}
+
+main .main-box {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh; 
+}
+
+.container .main-box img {
+    width: auto; 
+    height: 100%;
+}
+
+.container .main-box .text-box {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.product-container {
+    display: flex; /* Adiciona flexbox para alinhar os cards na horizontal */
+    justify-content: center; /* Centraliza os cards */
+    gap: 20px; /* Espaço entre os cards */
+}
+
+.product-box {
+    text-align: center; 
+    margin: 20px;
+    text-align: center;
+}
+
+.main-box {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px); /* Ajusta a altura para considerar o header */
+    padding: 20px; /* Espaçamento ao redor da área de texto */
+}
+
+.main-box {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+}
+
+.flex-container {
+    display: flex; /* Usamos flexbox para as colunas */
+    gap: 50px; /* Espaço entre as colunas */
+}
+
+.column {
+    display: flex;
+    flex-direction: column; /* Coloca os text-desc em coluna */
+    gap: 80px; /* Espaço entre os text-desc */
+    width: 200px; /* Largura das colunas */
+}
+
+.text-desc {
+    background-color: #a97b4c; /* Cor de fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    color: whitesmoke; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+.text-desc h1 {
+    margin-bottom: 150px; /* Espaço abaixo do título */
+}
+
+.text-desc p {
+    margin: 100px; 
+}

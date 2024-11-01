@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    height: 100vh;
+}
+
+.container {
+    background-color: #672f0a;
+    width: 100%; 
+    height: 100vh;
+}
+
+.container header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: #a97b4c;
+}
+
+.container header nav h1 {
+    padding: 25px;
+    padding-left: 480px;
+    margin-right: 200px;
+    color: whitesmoke;
+}
+
+.container header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%; 
+}
+
+.container header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container header nav ul li {
+    position: relative; 
+    height: 100%; 
+}
+
+.container header nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    padding: 30px 20px 0;
+    height: 100%; 
+}
+
+.active a {
+    background-color: #672f0a;
+}
+
+header nav ul li a:hover {
+    color: #903b0d;
+    border-bottom: 5px solid #944300;
+}
+
+main .main-box {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh; 
+}
+
+.container .main-box img {
+    width: auto; 
+    height: 100%;
+}
+
+.container .main-box .text-box {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.product-container {
+    display: flex; /* Adiciona flexbox para alinhar os cards na horizontal */
+    justify-content: center; /* Centraliza os cards */
+    gap: 20px; /* Espaço entre os cards */
+}
+
+.product-box {
+    text-align: center; 
+    margin: 20px;
+    text-align: center;
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Centraliza os cards na horizontal */
+    justify-content: center; /* Centraliza os cards na vertical */
+    height: calc(100vh - 80px); /* Ajusta a altura para considerar o header */
+}
+
+.main-box .text-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.text-desc p {
+    max-width: 600px; /* Limita a largura do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 10px 0; /* Ajusta a margem para cima e para baixo */
+    line-height: 1.3; /* Ajusta o espaçamento entre as linhas */
+}
+
+.card {
+    background-color: #ffffff; /* Cor de fundo do card */
+    border: 1px solid #672f0a; /* Borda do card */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    width: 300px; /* Largura do card */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para efeito */
+}
+
+.main-box .product-box .card img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do card */
+    height: 150px; /* Mantém a proporção da imagem */
+    border-radius: 8px 8px 0 0; /* Bordas arredondadas no topo */
+}
+
+.card p {
+    font-size: 15px;
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
+    color: #333; /* Cor do texto */
+}
+
+.product-box h2 {
+
+    padding: 20px;
+}
+
